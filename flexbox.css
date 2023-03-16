@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row; /* row-기본 값, column: 세로 축*/
+  justify-content: center;
+  background-color: rgb(124, 133, 133);
+  height: 200vh;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box:nth-child(1) {
+  background-color: pink;
+}
+
+.box:nth-child(2) {
+  background-color: olivedrab;
+}
+
+.box:nth-child(3) {
+  background-color: indianred;
+}
